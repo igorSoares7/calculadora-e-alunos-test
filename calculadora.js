@@ -8,7 +8,11 @@ function multiplicar(a,b){
     return a * b 
 }
 function dividir(a,b){
-    return a / b 
+    if(a === 0 || b === 0){
+        return -101
+    }else{
+        return a / b
+    } 
 }
 
 
@@ -19,4 +23,3 @@ module.exports = {
     multiplicar,
     dividir,
 }
-
