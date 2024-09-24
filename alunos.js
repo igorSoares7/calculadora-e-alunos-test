@@ -28,4 +28,3 @@ module.exports = {
     construirAluno
 }
 
-console.log(filtrarAlunos('igor',['joao','pedro']))
